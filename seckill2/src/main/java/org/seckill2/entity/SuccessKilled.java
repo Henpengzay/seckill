@@ -15,16 +15,16 @@ public class SuccessKilled implements Serializable {
 	 */
 	private static final long serialVersionUID = 1L;
 	
-	/* 秒杀商品ID */
+	/** 秒杀商品ID */
 	private long seckillId;
 
-	/* 用户手机号 */
+	/** 用户手机号 */
 	private long userPhone;
 	
-	/* 状态表示:-1:无效 0 成功 1 已付款 2 已发货' */
+	/** 状态表示:-1:无效 0 成功 1 已付款 2 已发货' */
 	private short state;
 	
-	/* 创建时间  */
+	/** 创建时间  */
 	private Date createTime;
 
 	// 变通

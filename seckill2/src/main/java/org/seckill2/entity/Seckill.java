@@ -15,22 +15,22 @@ public class Seckill implements Serializable {
 	 */
 	private static final long serialVersionUID = 1L;
 	
-	/* 商品库存id */
+	/** 商品库存id */
 	private long seckllId;
 	
-	/* 商品名称  */
+	/** 商品名称  */
 	private String name;
 	
-	/* 库存数量 */
+	/** 库存数量 */
 	private int number;
 	
-	/* 创建时间 */
+	/** 创建时间 */
 	private Date startTime;
 	
-	/* 秒杀开启时间 */
+	/** 秒杀开启时间 */
 	private Date endTime;
 	
-	/* 秒杀结束时间 */
+	/** 秒杀结束时间 */
 	private Date createTime;
 
 	/**
