@@ -16,7 +16,7 @@ public class Seckill implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
 	/** 商品库存id */
-	private long seckllId;
+	private long seckillId;
 	
 	/** 商品名称  */
 	private String name;
@@ -36,15 +36,15 @@ public class Seckill implements Serializable {
 	/**
 	 * @return the seckllId
 	 */
-	public long getSeckllId() {
-		return seckllId;
+	public long getSeckillId() {
+		return seckillId;
 	}
 
 	/**
 	 * @param seckllId the seckllId to set
 	 */
-	public void setSeckllId(long seckllId) {
-		this.seckllId = seckllId;
+	public void setSeckillId(long seckillId) {
+		this.seckillId = seckillId;
 	}
 
 	/**
@@ -122,7 +122,7 @@ public class Seckill implements Serializable {
 	 */
 	@Override
 	public String toString() {
-		return "Seckill [seckllId=" + seckllId + ", name=" + name + ", number=" + number + ", startTime=" + startTime
+		return "Seckill [seckillId=" + seckillId + ", name=" + name + ", number=" + number + ", startTime=" + startTime
 				+ ", endTime=" + endTime + ", createTime=" + createTime + "]";
 	}
 
@@ -137,7 +137,7 @@ public class Seckill implements Serializable {
 		result = prime * result + ((endTime == null) ? 0 : endTime.hashCode());
 		result = prime * result + ((name == null) ? 0 : name.hashCode());
 		result = prime * result + number;
-		result = prime * result + (int) (seckllId ^ (seckllId >>> 32));
+		result = prime * result + (int) (seckillId ^ (seckillId >>> 32));
 		result = prime * result + ((startTime == null) ? 0 : startTime.hashCode());
 		return result;
 	}
@@ -171,7 +171,7 @@ public class Seckill implements Serializable {
 			return false;
 		if (number != other.number)
 			return false;
-		if (seckllId != other.seckllId)
+		if (seckillId != other.seckillId)
 			return false;
 		if (startTime == null) {
 			if (other.startTime != null)
